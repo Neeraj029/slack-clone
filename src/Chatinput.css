@@ -1,0 +1,26 @@
+.chatinput > form {
+  position: relative;
+  display: flex;
+  /* width: auto; */
+  justify-content: center;
+}
+
+.chatinput > form > input {
+  /* display: inline; */
+  position: fixed;
+  padding: 10px;
+  bottom: 10px;
+  width: 70%;
+  border-radius: 5px;
+  border: 1px solid;
+  border-color: rgb(49, 49, 49);
+}
+
+.chatinput > form > button {
+  /* display: inline; */
+  display: none;
+}
+
+.chatinput {
+  /* background-color: cyan; */
+}

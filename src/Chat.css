@@ -1,0 +1,28 @@
+.chat {
+  flex: 1;
+}
+
+.chat_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid rgb(180, 180, 180);
+}
+
+.chat_headerRight > p {
+  display: flex;
+  align-items: center;
+}
+
+.chat_channelName > .MuiSvgIcon-root {
+  margin: 0 10px;
+  font-size: 16px;
+  /* fill: red; */
+  /* background-color: yellow; */
+}
+
+.chat_channelName {
+  display: flex;
+  align-items: center;
+}
